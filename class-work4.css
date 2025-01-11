@@ -1,0 +1,247 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    max-width: 100%;
+    /* padding: 5px 20px; */
+    /* padding-left: 20px;
+    padding-right: 50%; */
+
+}
+
+.Abstractfa {
+    display: flex;
+    padding: 10px;
+    font-family: 'GT America standard', 'sans-serif';
+    padding-left: 8%;
+}
+
+.Abstractfa p {
+    color: white;
+    font-family: 'GT America standard', 'sans-serif';
+}
+
+.Abstractfa img {
+    background-color: white;
+    height: 40px;
+    justify-content: center;
+    margin: auto;
+}
+
+.Abstractfa a {
+    text-decoration: none;
+    margin: 15px;
+    color: white;
+    font-size: larger;
+    font-family: 'GT America standard', 'sans-serif';
+}
+
+#subm {
+    text-decoration: none;
+    color: white;
+}
+
+.Signsub {
+    display: flex;
+    padding: 10px;
+    padding-right: 6%;
+}
+
+.container .Signsub img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10%;
+}
+
+.container .Signsub button {
+    border: 1px solid rgb(147, 139, 139);
+    border-radius: 15px;
+    width: 200px;
+    color: white;
+    background-color: rgb(12, 12, 12);
+    font-size: 22px;
+    font-family: 'GT America standard', 'sans-serif'
+}
+
+.container .Signsub select {
+    height: 20px;
+    margin: auto;
+}
+
+.Signsub option {
+    width: 20%;
+    height: 20%;
+    padding: 30%;
+}
+
+.searo {
+    background-color: rgb(185, 177, 200);
+    text-align: center;
+    padding: 100px;
+}
+
+.searo label {
+    font-size: 40px;
+    font-family: 'GT America standard', 'sans-serif';
+}
+
+.searo input {
+    margin: 10px;
+    padding: 20px;
+    width: 55%;
+    font-size: large;
+    font-family: 'GT America standard', 'sans-serif';
+}
+
+
+.gridd {
+    display: flex;
+    margin: 35px;
+}
+
+.griddad {
+    display: grid;
+    grid-template-columns: repeat(2, 20fr);
+    gap: 50px;
+    justify-content: center;
+    padding: 100px
+}
+
+.gridd img {
+    width: 120px;
+    height: 120px;
+}
+
+.gridd a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'GT America standard', 'sans-serif';
+}
+
+.gridd h2 {
+    font-size: 30px;
+    font-family: 'GT America standard', 'sans-serif';
+}
+
+.gridd p {
+    font-size: 30px;
+    font-family: 'GT America standard', 'sans-serif'
+}
+
+.ftoo {
+    display: flex;
+    background-color: black;
+    padding: 80px;
+    justify-content: space-around;
+}
+
+.ftoo p {
+    color: white;
+    margin: 10px;
+    font-family: 'GT America standard', 'sans-serif';
+    font-size: 30px;
+}
+
+
+
+
+.ftoo a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-family: 'GT America standard', 'sans-serif';
+    font-size: large;
+}
+
+.abst {
+    display: block;
+}
+
+.copyri {
+    margin-top: auto;
+}
+
+.help-buttons {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+}
+
+.help-button {
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: slateblue;
+    border: none;
+    cursor: pointer;
+    font-family: 'GT America standard', 'sans-serif';
+}
+
+
+.usingabs {
+    background-color: rgb(185, 177, 200);
+    padding: 100px;
+}
+
+.usingabs a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'GT America standard', 'sans-serif';
+}
+
+.abstract-articles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 100px;
+}
+
+.abstract-articles a {
+    text-decoration: none;
+    font-size: larger;
+    font-family: 'GT America standard', 'sans-serif';
+}
+
+ul,
+li {
+    font-size: larger;
+    font-family: 'GT America standard', 'sans-serif';
+}
+
+.abstract-articles p {
+    font-size: 35px;
+    font-family: 'GT America standard', 'sans-serif';
+}
+
+.best-practices h4 {
+    font-size: 25px;
+    font-family: 'GT America standard', 'sans-serif';
+}
+
+.best-practices h2 {
+    font-size: 40px;
+    font-family: 'GT America standard', 'sans-serif';
+}
+
+.Contact-support {
+    background-color: rgb(185, 177, 200);
+    padding: 80px;
+}
+
+.Contact-support a {
+    text-decoration: none;
+    color: black;
+    font-family: 'GT America standard', 'sans-serif';
+    font-size: large;
+}
+
+.Contact-support p {
+    font-family: 'GT America standard', 'sans-serif';
+    font-size: 70px;
+}
